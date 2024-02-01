@@ -9,13 +9,13 @@ interface ColorInputProps {
 
 const ColorInput: React.FC<ColorInputProps> = ({ label, value, onChange }) => {
   return (
-    <div className="flex flex-col h-full p-3">
-      <label className="md:text-xl">{label}</label>
+    <div className="flex h-full flex-col p-1 md:p-3">
+      <label className="text-sm md:text-xl">{label}</label>
       <input
         type="color"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full h-full"
+        className="h-full w-full"
       />
     </div>
   );
