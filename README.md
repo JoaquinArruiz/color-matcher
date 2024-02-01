@@ -23,5 +23,6 @@ To run this project, you will need:
 
 ### Screenshots
 
-![Screenshoot](.\public\images\demo_screen.png)
-![Demo gif](.\public\images\demo_gif.gif)
+![Demo gif](https://github.com/JoaquinArruiz/color-matcher/blob/main/public/images/demo_gif.gif?raw=true)
+
+![Screenshoot](https://github.com/JoaquinArruiz/color-matcher/blob/main/public/images/demo_screen.png?raw=true)
