@@ -4,7 +4,7 @@
 
 This project is bento style React application that allows users to input two colors and get a match-score between them using WCAG guidelines.
 
----
+#### Check the [Live Test](https://joaquinarruiz.github.io/color-matcher/)
 
 ### Prerequisites
 
