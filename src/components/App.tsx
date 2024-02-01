@@ -72,11 +72,9 @@ function App() {
     <div className="flex flex-col items-center justify-center">
       <div className="flex h-fit w-full flex-row items-center justify-center align-middle font-josefin font-bold md:text-4xl lg:w-3/5">
         <div className="m-8 flex w-full justify-between md:mt-3 lg:m-0 lg:mt-8">
-          <h1 className="text-3xl lg:text-5xl">
-            Color Matcher by Joaquin Arruiz
-          </h1>
+          <h1 className="text-3xl lg:text-5xl">Color-Matcher</h1>
           <a
-            href="https://github.com/JoaquinArruiz/"
+            href="https://github.com/JoaquinArruiz/color-matcher"
             className="flex items-center transition-all ease-in-out hover:scale-105"
             target="_blank"
           >
