@@ -69,10 +69,12 @@ function App() {
   const score = calculateWCAGScore(color1, color2);
 
   return (
-    <div>
-      <div className="flex h-fit w-full items-center justify-center align-middle font-josefin font-bold">
-        <div className=" mt-8 flex justify-between lg:w-3/5">
-          <h1 className=" text-5xl">Color Matcher by Joaquin Arruiz</h1>
+    <div className="flex flex-col items-center justify-center">
+      <div className="flex h-fit w-full flex-row items-center justify-center align-middle font-josefin font-bold md:text-4xl lg:w-3/5">
+        <div className="m-8 flex w-full justify-between md:mt-3 lg:m-0 lg:mt-8">
+          <h1 className="text-3xl lg:text-5xl">
+            Color Matcher by Joaquin Arruiz
+          </h1>
           <a
             href="https://github.com/JoaquinArruiz/"
             className="flex items-center transition-all ease-in-out hover:scale-105"
@@ -81,7 +83,7 @@ function App() {
             <IconBrandGithub size={32} />
           </a>
         </div>
-      </div>
+      </div>{" "}
       <div className="flex h-fit w-full items-center justify-center align-middle font-josefin font-bold">
         <div className="m-8 grid h-full grid-cols-4 grid-rows-5 gap-3 lg:w-3/5 [&>*]:rounded-lg [&>*]:border-2 [&>*]:border-neutral-950">
           <div className="col-span-1 row-span-1 max-h-32">

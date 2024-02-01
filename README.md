@@ -1,21 +1,25 @@
-# Project Title
+# Color-matcher
 
-One Paragraph of project description goes here
+This project is bento style React application that allows users to input two colors and get a match-score between them using WCAG guidelines.
 
 ---
 
-### Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To run this project, you will need:
+
+- Node.js and npm installed on your machine.
+- Vite
+- A modern web browser.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development environment running
-
-End with an example of getting some data out of the system or using it for a little demo
+1. Clone the repository to your local machine:
+2. Navigate to the project directory.
+3. Install the project dependencies using `npm install`.
+4. Start the project server using `npm run dev`.
 
 ### Screenshots
+
+![Screenshoot](public\images\demo_screen.png)
+![Demo gif](public\images\demo_gif.gif)
